@@ -1,0 +1,93 @@
+
+body{
+    background-color: orangered;
+      background-image: linear-gradient(to bottom right, rgb(51, 201, 221), rgb(218, 238, 130)) ;
+    /* background-image: url("https://images.unsplash.com/photo-1642783632294-d4b56bd2285e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-size: 2rem; */
+    
+}
+li{
+    opacity: 0px;
+}
+.Cards{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.card1:hover{
+opacity: 100%;
+}
+.card1{
+   
+     background-image: url("https://media.istockphoto.com/photos/neon-lighting-glowing-speech-bubble-on-black-brick-wall-picture-id1305035773?b=1&k=20&m=1305035773&s=170667a&w=0&h=0-_D34a2z8VfpYKTPMEoJ3Bru5Ksgi2sM2IaHPXYpvQ=") ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+    /* background-image: url("https://source.unsplash.com/random") center center/cover ; */
+    /* background-blend-mode:lighten; */
+     margin: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 0.5rem;
+/* box-shadow: yellow 5px 5px; */
+
+/* opacity: 0%; */
+height: 270px;
+width: 250px;
+
+}
+/* li{
+    border: 2px solid black;
+} */
+ul{
+    list-style-type: none;
+}
+.adviceImage{
+    /* background-image: url("https://source.unsplash.com/random"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    width: 90px;
+    border: 1px solid yellow;
+    border-radius: 50px;
+    margin-inline: 80px;
+    /* padding-bottom: ; */
+    margin-top: 20px;
+    
+}
+li:hover{
+    
+    box-shadow: rgb(97, 97, 95) 2px 2px 5px 5px;
+    transform:scale3d(90deg) ;
+    cursor: pointer;
+    opacity: 100%;
+}
+h3{
+    font-family:Mochiy Pop P One;
+    margin:0;
+    padding-inline: 40px;
+    margin-top: 10px;
+    color: lightsalmon;
+
+}
+#adviceString{
+    font-family: rubik;
+    /* font:bolder; */
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: auto;
+   margin-bottom: 15px;
+   align-items: center;
+   color: white;
+
+}
+h1{
+  /* align-items: center; 
+    */
+    font-family:Mochiy Pop P One;
+    /* color:transparent */
+}
