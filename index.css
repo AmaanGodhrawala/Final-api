@@ -9,7 +9,7 @@ body{
     
 }
 li{
-    opacity: 0px;
+    /* opacity: 0; */
 }
 .Cards{
     display: flex;
@@ -22,6 +22,7 @@ opacity: 100%;
 .card1{
    
      background-image: url("https://media.istockphoto.com/photos/neon-lighting-glowing-speech-bubble-on-black-brick-wall-picture-id1305035773?b=1&k=20&m=1305035773&s=170667a&w=0&h=0-_D34a2z8VfpYKTPMEoJ3Bru5Ksgi2sM2IaHPXYpvQ=") ;
+     /* background-image: url("https://i.imgur.com/W3tra4F.gif") 0 0; */
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
